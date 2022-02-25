@@ -3,7 +3,7 @@ const ical = require('ical-generator')
 
 // const calendar = require('./calendar.json')
 
-axios.get('https://api.phish.net/v5/shows/artist/phish.json?order_by=showdate&direction=desc&apikey=E334A0B4D0535769A41D')
+axios.get('https://api.phish.net/v5/shows/artist/phish.json?order_by=showdate&direction=desc&apikey=')
   .then(function (response) {
 
     const shows = response.data.data
