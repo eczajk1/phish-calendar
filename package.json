@@ -7,7 +7,6 @@
     "axios": "^0.26.0",
     "ical-generator": "^3.2.1"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eczajk1/phish-calendar.git"
@@ -16,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/eczajk1/phish-calendar/issues"
   },
-  "homepage": "https://github.com/eczajk1/phish-calendar#readme"
+  "homepage": "https://github.com/eczajk1/phish-calendar#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
 }
