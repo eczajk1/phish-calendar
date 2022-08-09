@@ -3,7 +3,8 @@ const axios = require('axios');
 const ical = require('ical-generator')
 
 const run = async () => {
-  const { data } = await axios.get('https://api.phish.net/v5/shows/artist/phish.json?order_by=showdate&direction=desc&apikey=')
+  const url = `https://api.phish.net/v5/shows/artist/phish.json?order_by=showdate&direction=desc&apikey=${process.env.API_KEY}`
+  const { data } = await axios.get(url)
 
   const calendar = ical({name: 'Phish'});
 
