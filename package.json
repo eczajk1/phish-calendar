@@ -1,0 +1,20 @@
+{
+  "name": "phish-calendar",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "ical-generator": "^3.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eczajk1/phish-calendar.git"
+  },
+  "author": "Eric Czajkowski",
+  "bugs": {
+    "url": "https://github.com/eczajk1/phish-calendar/issues"
+  },
+  "homepage": "https://github.com/eczajk1/phish-calendar#readme"
+}
