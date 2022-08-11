@@ -32,3 +32,6 @@ jobs:
       with:
         name: github-pages
         path: phish.ics
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@main
