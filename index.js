@@ -39,7 +39,6 @@ const run = async () => {
     });
   })
 
-  console.info(calendar.toString())
   await fs.writeFile('phish.ics', calendar.toString())
 }
 

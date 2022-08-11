@@ -30,4 +30,4 @@ jobs:
       uses: actions/upload-artifact@main
       with:
         name: github-pages
-        path: ${{ runner.temp }}/phish.ics
+        path: phish.ics
