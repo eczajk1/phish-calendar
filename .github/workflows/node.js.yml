@@ -37,5 +37,4 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@main
       with:
-        name: github-pages
-        path: phish.ics
+        path: dist

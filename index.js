@@ -38,7 +38,7 @@ const run = async () => {
     });
   })
 
-  await fs.writeFile('phish.ics', calendar.toString())
+  await fs.writeFile('dist/phish.ics', calendar.toString())
 }
 
 run()
