@@ -35,10 +35,7 @@ jobs:
       env:
         API_KEY: "${{secrets.API_KEY}}"
     - name: Upload artifact
-      uses: actions/upload-artifact@main
+      uses: actions/upload-pages-artifact@main
       with:
         name: github-pages
         path: phish.ics
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@main
