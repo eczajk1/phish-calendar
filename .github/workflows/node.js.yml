@@ -38,7 +38,7 @@ jobs:
       uses: actions/upload-artifact@main
       with:
         name: github-pages
-        path: dist
+        path: dist/index.html
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@main
